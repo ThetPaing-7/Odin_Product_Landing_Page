@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+ul{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+    padding-left: 25px;
+
+}
+
+.Navigation,
+.header{
+    background-color: #1F2937;
+
+  
+
+    
+}
+
+.Navigation .container{
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    
+}
+
+.container .logo{
+    font-size: 24px;
+    color:#F9FAF8 ;
+
+}
+
+.Navigation .container .navbr .nav{
+    display: flex;
+    font-size: 18px;
+    color: #F9FAF8;
+    margin-right: 25px;
+     
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    max-width: 1500px;
+    margin: 0 auto;
+
+}
+
+.container .left{
+    display: block;
+    max-width: 700px;
+   
+}
+
+.container .left h2{
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    
+
+}
+
+.container .left p{
+    font-size: 18px;
+    color: #F9FAF8;
+    margin-top: 15px;
+
+}
+
+.container .left button{
+    width: 200px;
+    height: 50px;
+    margin-top: 15px;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+
+}
+
+.container .right img{
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    font-weight: bold;
+
+}
+
+.content{
+    background-color: white;
+}
+
+.content .container{
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.content .container .cardholder{
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+
+}
+
+.content .container .cardholder .card{
+    border: 1px solid #3882f6;
+    border-radius: 15px;
+    margin: 30px 15px;
+    padding: 15px;
+    
+}
+
+.content .container .cardholder .card img{
+    width: 100px;
+    height: 100px;
+}
+
+.quote{
+    background-color: #E5E7EB;
+
+}
+
+.quote .container{
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.quote .container .famousQuote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: 30px 0 0 5px;
+}
+
+.quote .container .aurthor{
+    align-self: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px 0 15px 0px;
+}
+
+.callToAction{
+    background-color: white;
+}
+
+.callToAction .container{
+    background-color: #3882f6;
+    max-width: 1500px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.callToAction .container .left{
+    
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 30px;
+ 
+}
+
+.callToAction .container .left .ctaheader{
+    font-size: 25px;
+    color: white;
+    font-weight:bold;
+}
+
+.callToAction .container .right button{
+    margin-right: 200px;
+    width: 200px;
+    height: 50px;
+    margin-top: 15px;
+    background-color: #3882f6;
+    border-color:white;
+    color: white;
+    border-radius: 15px;
+    font-size: 20px;  
+}
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
